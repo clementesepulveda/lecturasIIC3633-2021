@@ -1,4 +1,4 @@
-# Week 1: Matrix Factorization Techniques for Recommender Systems
+# Week 2: Matrix Factorization Techniques for Recommender Systems
 
 This paper was an explanation of the Matrix Factorization model for recommender Systems. It starts off explaining what this model consists of, how it differentiates itself from the other models and why it is useful. Then it shows a few basic formulas on which it operates and what each component means; this model basically represents each user and item as vectors in f-dimension, and uses a minimizing function to find values to help predict. After that, it add to these formulas giving it biases (based on how much more compared a user will give an item compared to the average, rather than based on if it was high or low), implicit information ( lkke demographics and if users give interest in an item), temporal dynamics (basing ratings on a temporal function rather than a static one, since these things change over time), and how to add weight to different inputs.
 
