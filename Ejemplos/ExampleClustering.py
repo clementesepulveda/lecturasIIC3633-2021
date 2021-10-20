@@ -59,8 +59,8 @@ def calcNewPos(c1, c2, x_list, y_list):
 
 x_list, y_list = make_points()
 
-c1 = [rand(-100, 0),rand(-100,100)]
-c2 = [rand(0, 100),rand(-100,100)]
+c1 = [rand(-100, 100),rand(-100,100)]
+c2 = [rand(-100, 100),rand(-100,100)]
 
 show(x_list, y_list, c1, c2)
 
