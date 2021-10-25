@@ -35,7 +35,8 @@ def show(x_list, y_list, c1, c2):
     plt.scatter([i[0] for i in cluster1], [i[1] for i in cluster1], c=['g'])
     plt.scatter([i[0] for i in cluster2], [i[1] for i in cluster2], c=['b'])
 
-    plt.plot([c1[0], c2[0]],[c1[1],c2[0]], 'ro')
+    plt.scatter([c1[0]],[c1[1]], c=['r'])
+    plt.scatter([c2[0]],[c2[1]], c=['m'])
 
     plt.show()
 
